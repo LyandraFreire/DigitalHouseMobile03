@@ -52,6 +52,25 @@
         android:layout_marginTop="24dp"
         android:text="Log in" />
 
+    <TextView
+        android:id="@+id/rgs_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Register Now"
+        android:layout_gravity="end"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="-------------------------OR---------------------------"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
     <Button
         android:id="@+id/btn_facebook"
         style="@style/Widget.AppCompat.Button.Colored"
@@ -60,6 +79,25 @@
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/facebook"
         android:drawableLeft="@drawable/ic_facebook"
-        android:text="Log in" />
+        android:text="Login with facebook" />
+
+    <Button
+        android:id="@+id/btn_Twitter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/twiter"
+        android:drawableLeft="@drawable/ic_twitter"
+        android:text="Login with twitter" />
+
+    <Button
+        android:id="@+id/btn_Google"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/google"
+        android:drawableLeft="@drawable/ic_google"
+        android:text="Login with google" />
+
 
 </LinearLayout>
