@@ -22,6 +22,8 @@
         <activity
             android:name=".LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+
+
         <activity android:name=".RegisterActivity"
             android:label="Register now"></activity>
     </application>
